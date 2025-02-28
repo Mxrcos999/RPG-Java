@@ -5,6 +5,11 @@ public class Item {
     private String type;
     private int value;
 
+    public Item(String name, String type, int value){
+        this.name = name;
+        this.type = type;
+        this.value = value;
+    }
     public String getName() {
         return name;
     }

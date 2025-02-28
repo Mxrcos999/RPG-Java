@@ -1,6 +1,4 @@
-package Entities;
-
-import java.util.List;
+package Entities; 
 
 public class Location {
     private String name;

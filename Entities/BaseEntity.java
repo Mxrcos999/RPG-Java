@@ -3,7 +3,7 @@ package Entities;
 import java.util.List;
 
 public class BaseEntity {
-    private String name;
+    public String name;
     private Race race;
     private CharacterClass characterClass;
     private int level;

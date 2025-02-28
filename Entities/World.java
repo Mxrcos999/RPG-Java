@@ -17,7 +17,7 @@ public class World {
         System.out.println("Local adicionado: " + location);
     }
 
-    public void explorar() {
+    public void explorar(String name) {
         if (locations.isEmpty()) {
             System.out.println("O mundo está vazio. Adicione locais para explorar.");
             return;
@@ -29,6 +29,6 @@ public class World {
 
         System.out.println("Explorando o mundo " + name + "...");
         var local = localDescoberto.getName();
-        System.out.println("Descobriu: " + local); 
+        System.out.println(name + " Descobriu: " + local); 
     }
 }
